@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libertys - Contatti</title>
+</head>
+<body>
+    <header>
+        <h1>Libertys</h1>
+        <p><em>Cresci fuori per brillare dentro.</em></p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prodotti-servizi.html">Prodotti e Servizi</a></li>
+                <li><a href="bundle.html">Bundle</a></li>
+                <li><a href="call.html">Call One-to-One</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contattaci</h2>
+            <p>Sei pronto a diventare la versione migliore di te stesso? Prenota la tua prima Call One-to-One o richiedi informazioni sui nostri bundle.</p>
+            
+            <form action="#" method="POST">
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+                
+                <label for="email">Indirizzo Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="interesse">Quale pacchetto ti interessa maggiormente?</label><br>
+                <select id="interesse" name="interesse">
+                    <option value="viso">Cura del Viso</option>
+                    <option value="pelle">Cura della Pelle</option>
+                    <option value="ipertrofia">Ipertrofia</option>
+                    <option value="generale">Pacchetto Generale</option>
+                    <option value="call">Solo Call One-to-One</option>
+                </select><br><br>
+
+                <label for="messaggio">Raccontaci brevemente la tua situazione:</label><br>
+                <textarea id="messaggio" name="messaggio" rows="5" required></textarea><br><br>
+                
+                <button type="submit">Invia Messaggio</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Libertys - Settore Estetica e Crescita Personale</p>
+    </footer>
+</body>
+</html>
